@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\ChickenFillet;
+use App\ChickenFilletShop;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 
-class ChickenFilletController extends Controller
+class ChickenFilletShopController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -30,21 +31,22 @@ class ChickenFilletController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request  $requestx
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-        //
+        $chickenFilletShop = ChickenFilletShop::create($request->all());
+        return response($chickenFilletShop, Response::HTTP_CREATED); //import class?
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\ChickenFillet  $chickenFillet
+     * @param  \App\ChickenFilletShop  $chickenFilletShop
      * @return \Illuminate\Http\Response
      */
-    public function show(ChickenFillet $chickenFillet)
+    public function show(ChickenFilletShop $chickenFilletShop)
     {
         //
     }
@@ -52,10 +54,10 @@ class ChickenFilletController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\ChickenFillet  $chickenFillet
+     * @param  \App\ChickenFilletShop  $chickenFilletShop
      * @return \Illuminate\Http\Response
      */
-    public function edit(ChickenFillet $chickenFillet)
+    public function edit(ChickenFilletShop $chickenFilletShop)
     {
         //
     }
@@ -64,10 +66,10 @@ class ChickenFilletController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\ChickenFillet  $chickenFillet
+     * @param  \App\ChickenFilletShop  $chickenFilletShop
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ChickenFillet $chickenFillet)
+    public function update(Request $request, ChickenFilletShop $chickenFilletShop)
     {
         //
     }
@@ -75,11 +77,12 @@ class ChickenFilletController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\ChickenFillet  $chickenFillet
+     * @param  \App\ChickenFilletShop  $chickenFilletShop
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ChickenFillet $chickenFillet)
+    public function destroy(ChickenFilletShop $chickenFilletShop)
     {
-        //
+        $chickenFilletShop->delete();
+        return response(NULL, Response::HTTP_NO_CONTENT);
     }
 }

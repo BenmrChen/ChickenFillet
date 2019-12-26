@@ -3,6 +3,9 @@
 namespace App\Exceptions;
 
 use Exception;
+//use http\Env\Response;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
@@ -46,6 +49,24 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
+//        if (strpos($exception->getMessage(), "No query results for model") !== false) {
+//            return response()->json(
+//                [
+//                    'error' => '無該筆資料'
+//                ],
+//                Response::HTTP_NOT_FOUND
+//            );
+//        }
+        if ($request->expectsJson()) {
+            if ($exception instanceof ModelNotFoundException) {
+                return response()->json(
+                    [
+                        'error' => '找不到資源'
+                    ],
+                    Response::HTTP_NOT_FOUND
+                );
+            }
+        }
         return parent::render($request, $exception);
     }
 }
