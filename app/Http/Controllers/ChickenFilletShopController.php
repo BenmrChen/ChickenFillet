@@ -15,7 +15,10 @@ class ChickenFilletShopController extends Controller
      */
     public function index()
     {
-        //
+        $chickenFilletShop = ChickenFilletShop::get();
+//        return response($chickenFilletShop, Response::HTTP_OK);
+        return response(['chickFilletShop' => $chickenFilletShop], Response::HTTP_OK);
+
     }
 
     /**
@@ -48,7 +51,8 @@ class ChickenFilletShopController extends Controller
      */
     public function show(ChickenFilletShop $chickenFilletShop)
     {
-        //
+        return \response($chickenFilletShop, Response::HTTP_OK);
+        // show 傳入的物件 Laravel 會自動利用 Model 設定的主鍵去找出資料(主鍵預設id)
     }
 
     /**
@@ -71,7 +75,8 @@ class ChickenFilletShopController extends Controller
      */
     public function update(Request $request, ChickenFilletShop $chickenFilletShop)
     {
-        //
+        $chickenFilletShop->update($request->all());
+        return \response($chickenFilletShop, Response::HTTP_OK);
     }
 
     /**
