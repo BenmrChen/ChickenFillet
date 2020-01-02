@@ -13,10 +13,32 @@ class ChickenFilletShopController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $chickenFilletShop = ChickenFilletShop::get();
+//        $chickenFilletShop = ChickenFilletShop::get();
 //        return response($chickenFilletShop, Response::HTTP_OK);
+//        return response(['chickFilletShop' => $chickenFilletShop], Response::HTTP_OK);
+        $marker = $request->marker == null ? 1 : $request->marker;
+        $limit  = $request->limit  == null ? 10: $request->limit;
+
+//        $chickenFilletShop = ChickenFilletShop::orderBy('id', 'asc')
+//            ->where('id', '>=', $marker)
+////            ->limit($limit)
+//            ->paginate($limit);
+////            ->get();
+
+        $query = ChickenFilletShop::query();
+
+        if (isset($request->filters)) {
+            $filters = explode(',', $request->filters);
+            foreach ($filters as $filter) {
+                list($criteria, $value) = explode(':', $filter);
+                $query->where($criteria, 'like', "%$value%");
+            }
+        }
+//        dd($query);
+        $chickenFilletShop = $query->where('id', '>=', $marker)->paginate($limit);
+
         return response(['chickFilletShop' => $chickenFilletShop], Response::HTTP_OK);
 
     }
