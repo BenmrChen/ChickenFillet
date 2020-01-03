@@ -20,4 +20,12 @@ class ChickenFilletShop extends Model
         'feature',
         'phone_order',
     ];
+
+    /**
+     * 取得雞排的分類
+     */
+    public function type()
+    {
+        return $this->belongsTo('App\Type');
+    }
 }
