@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 class ChickenFilletShop extends Model
 {
@@ -28,4 +29,16 @@ class ChickenFilletShop extends Model
     {
         return $this->belongsTo('App\Type');
     }
+
+    /**
+     * 計算店家已新增了多久
+     *
+     * @param string $value
+     * @return string
+     */
+    public function getLastingperiodAttribute() {
+        $diff = Carbon::now()->diff($this->created_at);
+        return "{$diff->y}年{$diff->m}月";
+    }
+
 }

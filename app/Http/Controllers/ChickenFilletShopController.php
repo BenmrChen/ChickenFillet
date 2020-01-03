@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\ChickenFilletShop;
+use App\Http\Resources\ChickenFilletShopResource;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -111,8 +112,10 @@ class ChickenFilletShopController extends Controller
      */
     public function show(ChickenFilletShop $chickenFilletShop)
     {
-        return response($chickenFilletShop, Response::HTTP_OK);
+//        return response($chickenFilletShop, Response::HTTP_OK);
         // show 傳入的物件 Laravel 會自動利用 Model 設定的主鍵去找出資料(主鍵預設id)
+
+        return response(new ChickenFilletShopResource($chickenFilletShop), Response::HTTP_OK);
     }
 
     /**

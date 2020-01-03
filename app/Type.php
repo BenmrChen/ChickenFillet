@@ -14,7 +14,7 @@ class Type extends Model
     /**
      * 取得類別的雞排店
      */
-    public function chickenFillets()
+    public function chickenFilletShops()
     {
         return $this->hasMany('App\ChickenFilletShop', 'type_id', 'id');
     }

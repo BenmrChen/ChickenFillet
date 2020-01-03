@@ -13,10 +13,14 @@ class TypeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $types = Type::get();
-        return response($types, Response::HTTP_OK);
+//        dd($request->type_id);
+        $chickenFilletShopsAndTypes = Type::find($request->type_id)->ChickenFilletShops;
+//        dd($chickenFilletShopsAndTypes);
+
+        return response($chickenFilletShopsAndTypes, Response::HTTP_OK);
     }
 
     /**
