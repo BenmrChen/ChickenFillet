@@ -20,6 +20,7 @@ class ChickenFilletShop extends Model
         'chain_store',
         'feature',
         'phone_order',
+        'user_id',
     ];
 
     /**

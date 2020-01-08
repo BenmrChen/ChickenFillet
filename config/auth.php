@@ -42,7 +42,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport', // 把原來的 token 改成 passport
             'provider' => 'users',
             'hash' => false,
         ],

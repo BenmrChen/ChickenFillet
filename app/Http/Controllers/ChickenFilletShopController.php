@@ -9,6 +9,11 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ChickenFilletShopController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth:api', ['except' => ['index','show']]);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -138,6 +143,7 @@ class ChickenFilletShopController extends Controller
      */
     public function update(Request $request, ChickenFilletShop $chickenFilletShop)
     {
+        $this->authorize('update', $chickenFilletShop);
         $chickenFilletShop->update($request->all());
         return response($chickenFilletShop, Response::HTTP_OK);
     }
