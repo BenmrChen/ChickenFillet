@@ -12,7 +12,7 @@ class ChickenFilletShopPolicy
 
     public function before($user, $ability)
     {
-        // 昨天新建的
+
         if ($user->permission== 'admin') {
             return true;
         }
