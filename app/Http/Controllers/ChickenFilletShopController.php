@@ -156,6 +156,7 @@ class ChickenFilletShopController extends Controller
      */
     public function destroy(ChickenFilletShop $chickenFilletShop)
     {
+        $this->authorize('delete', $chickenFilletShop); // 不要忘記加這行 去驗證使用者身份; 因為已經註冊過policy，所以在這邊直接把參數1:policy裡的方法、與參數2
         $chickenFilletShop->delete();
         return response(NULL, Response::HTTP_NO_CONTENT);
     }

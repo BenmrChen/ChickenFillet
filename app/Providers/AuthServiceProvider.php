@@ -15,8 +15,8 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-//         'App\Model' => 'App\Policies\ModelPolicy', // 這個是原來就被隱藏的
-        ChickenFilletShop::class => ChickenFilletShopPolicy::class, // 官方文件也是這樣寫
+         'App\Model' => 'App\Policies\ModelPolicy', // 這個是原來就被隱藏的，但放下面那個似乎不能用
+//        ChickenFilletShop::class => ChickenFilletShopPolicy::class, // 官方文件也是這樣寫
     ];
 
     /**
