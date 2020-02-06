@@ -37,7 +37,7 @@ class ChickenFilletShopController extends Controller
         $chickenFilletShop = ChickenFilletShop::query(); // 如果user都沒有走filters或sorts來key in 做查詢的話 下面的$chickenFilletShop就會抓不到 所以還是要加這一行
         // 如果不用query 而是用get()的話，會出現"paginate does not exist."的提示 dd後會發現用get()出來會拿到collection; 但用query()的話會是個query builder，
 
-        dd($chickenFilletShop);
+//        dd($chickenFilletShop);
 
         // 設定篩選條件
         if (isset($request->filters)) {
