@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<form method="POST" action="/api/pay">
+<form method="POST" action="/api/pay_CVS">
     @csrf
+    <h1>CVS Payment</h1>
     <p>店舖名:
         <select name="shop_name" id="">
             <option value="TW_No_1">台灣第一家雞排</option>
