@@ -85,14 +85,13 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ url('/OpayPayment/') }}">雞排下單連結</a>
+                    <a href="https://github.com/BenmrChen/" TARGET="_blank">GitHub</a>
+                    <?php
+                        if (isset(\Illuminate\Support\Facades\Auth::user()->id)) {
+                            session()->put('user_id', \Illuminate\Support\Facades\Auth::user()->id);
+                        }
+                    ?>
                 </div>
             </div>
         </div>
