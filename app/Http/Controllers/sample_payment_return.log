@@ -1,0 +1,547 @@
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-10 09:55:01 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581328476
+    [PayAmt] => 260
+    [PaymentDate] => 2020/02/10 17:54:54
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 3
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 260
+    [TradeDate] => 2020/02/10 17:54:37
+    [TradeNo] => 2002101754372116
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-10 09:58:41 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581328696
+    [PayAmt] => 325
+    [PaymentDate] => 2020/02/10 17:58:34
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 3
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 325
+    [TradeDate] => 2020/02/10 17:58:17
+    [TradeNo] => 2002101758172119
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-10 10:02:31 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581328922
+    [PayAmt] => 195
+    [PaymentDate] => 2020/02/10 18:02:24
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 2
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 195
+    [TradeDate] => 2020/02/10 18:02:03
+    [TradeNo] => 2002101802032120
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-10 10:06:54 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581329188
+    [PayAmt] => 325
+    [PaymentDate] => 2020/02/10 18:06:46
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 3
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 325
+    [TradeDate] => 2020/02/10 18:06:28
+    [TradeNo] => 2002101806282122
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-11 03:43:45 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-11 03:47:29 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:48:19 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:48:18
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:50:05 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:50:04
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:50:31 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:50:30
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:50:53 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:50:52
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:51:20 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:51:20
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:52:13 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:52:12
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:52:25 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:52:25
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:53:07 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:53:06
+    [TradeNo] => 2002111103242145
+    [TradeAmt] => 325
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581390204
+    [TradeDate] => 2020/02/11 11:03:24
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 03:54:18 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => Credit
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 11:54:18
+    [TradeNo] => 2002111142272151
+    [TradeAmt] => 65
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581392546
+    [TradeDate] => 2020/02/11 11:42:27
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 0
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:15:30 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [Barcode1] => 
+    [Barcode2] => 
+    [Barcode3] => 
+    [ExpireDate] => 2020/02/18 12:15:08
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581394502
+    [PaymentNo] => LKK20042108690
+    [PaymentType] => CVS
+    [RtnCode] => 10100073
+    [RtnMsg] => Get CVS Code Succeeded.
+    [TradeAmt] => 2000
+    [TradeDate] => 2020/02/11 12:15:08
+    [TradeNo] => 2002111215022158
+    [PayAmt] => 2000
+    [RedeemAmt] => 0
+    [StoreID] => 
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:18:26 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:18:26
+    [TradeNo] => 2002111215022158
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581394502
+    [TradeDate] => 2020/02/11 12:15:02
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:19:37 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:19:36
+    [TradeNo] => 2002111215022158
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581394502
+    [TradeDate] => 2020/02/11 12:15:02
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:21:46 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:21:45
+    [TradeNo] => 2002111215022158
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581394502
+    [TradeDate] => 2020/02/11 12:15:02
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:25:57 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:25:57
+    [TradeNo] => 2002111215022158
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581394502
+    [TradeDate] => 2020/02/11 12:15:02
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:26:19 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:26:18
+    [TradeNo] => 2002111215022158
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581394502
+    [TradeDate] => 2020/02/11 12:15:02
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:26:43 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:26:42
+    [TradeNo] => 2002111215022158
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581394502
+    [TradeDate] => 2020/02/11 12:15:02
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-11 04:26:57 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:37:14 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [Barcode1] => 
+    [Barcode2] => 
+    [Barcode3] => 
+    [ExpireDate] => 2020/02/18 12:36:52
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581395780
+    [PaymentNo] => LKK20042108703
+    [PaymentType] => CVS
+    [RtnCode] => 10100073
+    [RtnMsg] => Get CVS Code Succeeded.
+    [TradeAmt] => 2000
+    [TradeDate] => 2020/02/11 12:36:52
+    [TradeNo] => 2002111236222159
+    [PayAmt] => 2000
+    [RedeemAmt] => 0
+    [StoreID] => 
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:38:19 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:38:19
+    [TradeNo] => 2002111236222159
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581395780
+    [TradeDate] => 2020/02/11 12:36:22
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:58:56 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [Barcode1] => 
+    [Barcode2] => 
+    [Barcode3] => 
+    [ExpireDate] => 2020/02/18 12:58:34
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581397085
+    [PaymentNo] => LKK20042108725
+    [PaymentType] => CVS
+    [RtnCode] => 10100073
+    [RtnMsg] => Get CVS Code Succeeded.
+    [TradeAmt] => 2000
+    [TradeDate] => 2020/02/11 12:58:34
+    [TradeNo] => 2002111258072162
+    [PayAmt] => 2000
+    [RedeemAmt] => 0
+    [StoreID] => 
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 04:59:53 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 12:59:53
+    [TradeNo] => 2002111258072162
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581397085
+    [TradeDate] => 2020/02/11 12:58:07
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-11 05:00:27 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [PaymentType] => CVS
+    [RtnMsg] => 付款成功
+    [SimulatePaid] => 1
+    [PaymentDate] => 2020/02/11 13:00:27
+    [TradeNo] => 2002111258072162
+    [TradeAmt] => 2000
+    [MerchantID] => 2000132
+    [StoreID] => 
+    [MerchantTradeNo] => Test1581397085
+    [TradeDate] => 2020/02/11 12:58:07
+    [RtnCode] => 1
+    [PaymentTypeChargeFee] => 27.0000
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-12 03:16:44 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581477378
+    [PayAmt] => 65
+    [PaymentDate] => 2020/02/12 11:16:40
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 1
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 65
+    [TradeDate] => 2020/02/12 11:16:18
+    [TradeNo] => 2002121116182269
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-12 03:22:49 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581477741
+    [PayAmt] => 65
+    [PaymentDate] => 2020/02/12 11:22:43
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 1
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 65
+    [TradeDate] => 2020/02/12 11:22:21
+    [TradeNo] => 2002121122212273
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-12 03:25:06 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581477881
+    [PayAmt] => 65
+    [PaymentDate] => 2020/02/12 11:25:03
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 1
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 65
+    [TradeDate] => 2020/02/12 11:24:41
+    [TradeNo] => 2002121124412274
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 03:25:07 ++++++++++++++++++++++++++++++++++++++++++++
+SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value (SQL: insert into `orders` (`status`, `updated_at`, `created_at`) values (1, 2020-02-12 03:25:07, 2020-02-12 03:25:07))
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數 2020-02-12 06:18:17 ++++++++++++++++++++++++++++++++++++++++++++
+Array
+(
+    [MerchantID] => 2000132
+    [MerchantTradeNo] => Test1581487976
+    [PayAmt] => 65
+    [PaymentDate] => 2020/02/12 14:18:12
+    [PaymentType] => Credit
+    [PaymentTypeChargeFee] => 1
+    [RedeemAmt] => 0
+    [RtnCode] => 1
+    [RtnMsg] => 交易成功
+    [SimulatePaid] => 0
+    [TradeAmt] => 65
+    [TradeDate] => 2020/02/12 14:12:57
+    [TradeNo] => 2002121412572318
+)
+
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:21:43 ++++++++++++++++++++++++++++++++++++++++++++
+Undefined index: CheckMacValue
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:22:26 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:24:18 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:25:25 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:25:55 ++++++++++++++++++++++++++++++++++++++++++++
+Undefined variable: arFeedback
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:32:05 ++++++++++++++++++++++++++++++++++++++++++++
+Undefined variable: arFeedback
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:32:30 ++++++++++++++++++++++++++++++++++++++++++++
+Undefined variable: arFeedback
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:34:39 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:35:08 ++++++++++++++++++++++++++++++++++++++++++++
+Undefined index: CheckMacValue
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:37:08 ++++++++++++++++++++++++++++++++++++++++++++
+Undefined index: CheckMacValue
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:40:02 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:40:44 ++++++++++++++++++++++++++++++++++++++++++++
+CheckMacValue verify fail.
++++++++++++++++++++++++++++++++++++++++ 接收回傳參數(ERROR) 2020-02-12 07:45:16 ++++++++++++++++++++++++++++++++++++++++++++
+SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value (SQL: insert into `orders` (`status`, `updated_at`, `created_at`) values (1, 2020-02-12 07:45:16, 2020-02-12 07:45:16))
