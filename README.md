@@ -36,3 +36,4 @@
 1. [PHP + Laravel 雞排聯盟API實作: 前言](https://growingdna.com/chickenfilletaffiliate-api-preface/)
 2. [PHP + Laravel 雞排聯盟API實作: 產出 table 及可供操作的物件](https://growingdna.com/chickenfilletaffiliate-api-createmodel/)
 3. [PHP + Laravel 雞排聯盟API實作: CRUD 增刪改查](https://growingdna.com/chickenfilletaffiliate-api-crud)
+4. [PHP + Laravel 雞排聯盟API實作: 追加會員身份驗證](https://growingdna.com/php-laravel-chickenfillet-auth)
