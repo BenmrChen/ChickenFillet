@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('OpayPayment', function () {
+    return view('OpayPayment');
+});
+
+Route::get('OpayPayment_CVS', function () {
+    return view('OpayPayment_CVS');
+});

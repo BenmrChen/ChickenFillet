@@ -24,3 +24,7 @@ Route::apiResource('chickenFilletShop', 'ChickenFilletShopController');
 Route::apiResource('type', 'TypeController');
 
 Route::apiResource('user', 'UserController');
+
+Route::post('pay', 'OpayPaymentController@pay');
+Route::post('pay_CVS', 'OpayPaymentController@pay_cvs');
+Route::post('receive', 'OpayPaymentController@receive');
